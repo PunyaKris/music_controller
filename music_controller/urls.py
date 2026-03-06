@@ -8,7 +8,7 @@ urlpatterns = [
     path('spotify/', include('spotify.urls')),
 
     # React SPA catch-all (LAST)
-    re_path(r"^(?!admin($|/)|api($|/)).*$", index),
+    re_path(r"^(?!admin($|/)|api($|/)|spotify($|/)).*$", index)
 ]
 
 
